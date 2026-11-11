@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		body { font-family: system-ui; }
+
+	/* @media (min-width: 640px){
+		.row { display: flex; gap: 1rem;}
+		.row > * {flex: 1;}
+		} */
+
+		.row { display: flex; gap: 1rem;}
+		.row > * {flex: 1;}
+		
+		@media (max-width: 640px){
+			.row {flex-direction: column;}
+		}
+
+
+
+		.row{
+			max-width: 1200px;
+			margin: auto;
+		}
+
+
+
+
+		
+		@media (min-width: 666px) {
+			body {background: pink;}
+		}
+		@media (max-width: 500px) {
+			div {color: magenta}
+		}
+
+	</style>
+</head>
+<body>
+
+	<div class="row">
+		<div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic dolores cum sunt dolorem ex, commodi nulla, sint deserunt optio odio nesciunt molestiae error molestias alias voluptatem aperiam. Aliquid, cupiditate! Reiciendis.</div>
+		<div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat eveniet optio mollitia praesentium earum quos, esse sequi sapiente corrupti facere saepe consequuntur. Nesciunt nulla tempore cum accusantium, ipsa facilis unde.</div>
+	</div>
+	
+</body>
+</html>
